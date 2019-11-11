@@ -9,7 +9,7 @@ Each Lab folder demonstrates a new skill taught in the course.
 Lab 1-2: Basic HTML and CSS
 
 
-Lab 3: Bootstrap and responsive web design with bootstrap
+Lab 3: Responsive web design with bootstrap
 
 
 Lab 4: Basic Form validation using Perl (currently inactive/ unable to retrieve perl file anymore)
