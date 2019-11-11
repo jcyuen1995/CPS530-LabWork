@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<Title> Splash page </title>
+	</head>
+	<link rel="stylesheet" type="text/css"
+			href="stylesheet.css" />
+<div class = "center">
+<body>
+	<h1 class ="signature"> CPS530 </h1>
+			<p>
+			Jonathan Yuen's Web Resume
+			</P>
+
+    <ul id="menu">
+        <li><a href="#">Home</a></li>
+        <li>
+            <a href="#">About ￬</a>
+            <ul class="hidden">
+                <li><a href="#">Who We Are</a></li>
+                <li><a href="#">What We Do</a></li>
+            </ul>
+        </li>
+        <li>
+            <a href="#">Portfolio ￬</a>
+            <ul class="hidden">
+                <li><a href="#">Photography</a></li>
+                <li><a href="#">Web & User Interface Design</a></li>
+                <li><a href="#">Illustration</a></li>
+            </ul>
+        </li>
+        <li><a href="#">News</a></li>
+        <li><a href="#">Contact</a></li>
+    </ul>
+			<SCRIPT>
+					function passWord() {
+					var testV = 1;
+					var pass1 = prompt('Please Enter Password',' ');
+					while (testV < 3) {
+					if (!pass1) 
+					history.go(-1);
+					if (pass1.toLowerCase() == "admin") {
+					alert('Correct Password');
+					window.open('https://j25yuen.herokuapp.com/lab1/index.html');
+					break;} 
+					testV+=1;
+					var pass1 = 
+					prompt('Access Denied - Password Incorrect, Please Try Again.','Password');}
+					if (pass1.toLowerCase()!="password" & testV ==3) 
+					history.go(-1);
+					return " ";} 
+					</SCRIPT>
+					<FORM>
+					<input type="button" value="Lab 1" onClick="passWord()">
+					</FORM>
+					<br>
+			<SCRIPT>
+					function passWord2() {
+					var testV = 1;
+					var pass1 = prompt('Please Enter Password',' ');
+					while (testV < 3) {
+					if (!pass1) 
+					history.go(-1);
+					if (pass1.toLowerCase() == "admin2") {
+					alert('Correct Password');
+					window.open('https://j25yuen.herokuapp.com/lab2/index.html');
+					break;} 
+					testV+=1;
+					var pass1 = 
+					prompt('Access Denied - Password Incorrect, Please Try Again.','Password');}
+					if (pass1.toLowerCase()!="password" & testV ==3) 
+					history.go(-1);
+					return " ";} 
+					</SCRIPT>
+					<FORM>
+					<input type="button" value="Lab 2" onClick="passWord2()">
+					</FORM>
+					<br>
+			<SCRIPT>
+			function open3() {
+				window.open("https://j25yuen.herokuapp.com/lab3/index.html");
+			}
+			</SCRIPT>
+			<FORM>
+				<input type="button" value="Lab 3" onClick="open3()">
+			</FORM>
+			<br>
+			<SCRIPT>
+			function open4() {
+				window.open("https://j25yuen.herokuapp.com/lab4/index.html");
+			}
+			</SCRIPT>
+				<FORM>
+				<input type="button" value="Lab 4" onClick="open4()">
+			</FORM>
+			<br>
+			<SCRIPT>
+			function open5() {
+				window.open("https://j25yuen.herokuapp.com/lab5/index.html");
+			}
+			</SCRIPT>
+				<FORM>
+				<input type="button" value="Lab 5" onClick="open5()">
+			</FORM>
+			<br>
+			<SCRIPT>
+			function open6() {
+				window.open("https://j25yuen.herokuapp.com/lab6/index.php");
+			}
+			</SCRIPT>
+			<FORM>
+				<input type="button" value="Lab 6" onClick="open6()">
+			</FORM>
+			<br>
+
+</body>
+</div>
+</html>
