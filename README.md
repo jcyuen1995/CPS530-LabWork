@@ -1,5 +1,5 @@
 # CPS530-LabWork
-Lab work Done for Ryerson CPS530 course
+Lab work done for Ryerson CPS530 course
 
 ## About
 This is my entire folder consisting of 3 months of lab work done for Ryerson's CPS530 web system development course.
